@@ -1,0 +1,25 @@
+@relation handgrasp_object_detection
+
+@attribute T_x real
+@attribute T_y real
+@attribute T_z real
+@attribute T_a real
+@attribute I_x real
+@attribute I_y real
+@attribute I_z real
+@attribute I_a real
+@attribute M_x real
+@attribute M_y real
+@attribute M_z real
+@attribute M_a real
+@attribute R_x real
+@attribute R_y real
+@attribute R_z real
+@attribute R_a real
+@attribute P_x real
+@attribute P_y real
+@attribute P_z real
+@attribute P_a real
+@attribute Class {grab_a_book, hold_a_mouse, hold_a_pen, hold_a_pencil, hold_a_bottle, hold_water_bottle, grab_water_bottle, grab_water_glass, grab_wine_glass, hold_mug_handle, hold_a_knife, hold_a_spoon, hold_a_bottle_sprayer, grab_workshop_door_lock, hold_screw_driver, hold_a_hammer, hold_a_saw, hold_a_plier, grab_emergency_door_lock}
+
+@data
